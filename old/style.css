@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: sans-serif;
+    font-size: 16px;
+    background-color: #222733;
+}
+
+
+
+/*
+    Header
+*/
+header{
+    background-color: rgb(10, 20, 30);
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+}
+
+header .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 20%;
+    margin-left: 20px;
+    font-size: 30px;
+    cursor: pointer;
+    text-align: center;
+    padding: 10px;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+header .logo:hover{
+    opacity: 1;
+}
+
+/* This part here is the reusable class elements */
+.button-padding { padding: 10px;}
+.button-margin { margin: 10px;}
+.font-color-white{ color:white}
+
+h1 {
+    font-family: "Josefin Sans";
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;}
+
+/* My Nvigation bar styles */
+
+nav{
+    background-color: rgb(85, 94, 100);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   /* width: 500px; 
+    margin-right: 20px;
+    flex-wrap: wrap; */
+}
+
+nav ul .nav-button{
+    list-style-type: none;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    font-size: 18px;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+nav ul .nav-button:hover{
+    opacity: 1;
+}
+
+
+/*
+        Main Section
+*/
+.btn{
+    background-color: #f4511e; 
+    border: none;
+    color: white;
+    padding: 16px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+.btn:hover{
+    opacity:1;
+}
+
+/*
+ Section About-Container
+*/
+
+.main{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    border: 5px solid green;
+}
+
+.container{
+    border: 5px solid red;
+    justify-content: space-between;
+    width: 80%;
+    color: white;
+    justify-content: center;
+}
+#skills{
+    border: 1px solid blue;
+}
+#project{
+    border: 1px solid green;
+}
+#contact{
+    border: 1px solid white;
+}
+
+
+
+/*
+        Footer
+*/
