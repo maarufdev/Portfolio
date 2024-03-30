@@ -299,12 +299,9 @@ ul{
 
 #skills{
     display: flex;
-    /* justify-content: space-evenly; */
-    /* background-color: var(--previewShadow); */
-    /* width: 50%; */
 }
 
-#skills>div{
+#skills div{
     display: flex;
     padding: 2px 30px 2px 10px;
     background-color: var(--previewShadow);
